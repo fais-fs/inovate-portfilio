@@ -1,0 +1,15 @@
+.fcontainer{
+    display: flex;
+    grid-template:auto 1fr auto/auto 1fr auto;    
+}
+
+.ftiem{
+    display: flex;
+    grid-template:auto 1fr auto/auto 1fr auto;    
+
+    background-color: aquamarine;
+    border: 2px #b82b1b;
+    margin: 12px;
+    width: 122px;
+    height: 120px;
+}

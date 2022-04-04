@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{url_for('static', filename = 'main.css')}}">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title%}{% endblock %}- Flask</title>
+</head>
+<body>
+    <h1>Flask Application Demo</h1>
+
+    <nav>
+        <a href="/">Home</a>
+        <a href="/jordan">Jordan</a>
+        <a href="/katy">Katy</a>
+        <a href="/ayesha">Ayesha</a>
+    </nav>
+
+    {% block content %}
+    {% endblock %}
+
+</body>
+</html>

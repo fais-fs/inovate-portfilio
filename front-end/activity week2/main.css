@@ -1,0 +1,15 @@
+.desktop, .mobile{
+    display: none;
+}
+
+@media (orientation:landscape)
+{body{background-color: rgb(20, 19, 19);
+color: rgb(236, 231, 247);}}
+
+@media(orientation: protrait)
+{body{background-color: darkblue;
+  color: white-space ;
+}
+.mobile{
+    display: inline;
+}}
