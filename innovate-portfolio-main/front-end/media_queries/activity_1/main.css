@@ -1,0 +1,24 @@
+
+.desktop, .mobile {
+    display: none;
+}
+
+@media (orientation: landscape) {
+    body {
+        background-color: whitesmoke;
+        color: darkblue;
+    }
+    .desktop {
+        display: inline-block;
+    }
+}
+
+@media (orientation: portrait) {
+    body {
+        background-color: darkblue;
+        color: whitesmoke;
+    }
+    .mobile {
+        display: inline-block;
+    }
+}

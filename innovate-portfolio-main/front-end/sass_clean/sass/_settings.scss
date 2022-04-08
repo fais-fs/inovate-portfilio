@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+$backgroundColour: #242F40;
+$fontColour: #B7D1DA;
+$accentColour: #FFA69E;
+
+$headingFont: 'Major Mono Display', monospace;
+$mainFont: monospace;
+
+@mixin title {
+    font-family: $headingFont;
+    color: $fontColour;
+} 

@@ -1,0 +1,55 @@
+
+body {
+    background-color: aquamarine;
+}
+
+h1 {
+    color: crimson;
+    font-size: 48px;
+}
+
+h2 {
+    color: darkblue;
+    font-size: 32px;
+    text-decoration: underline;
+}
+
+h2:hover {
+    color: deeppink;
+    font-size: 32px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h2:active {
+    color: lawngreen;
+    font-size: 48px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h1, h2 {
+    font-family: monospace;
+}
+
+.flex-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+p {
+    color: darkblue;
+}
+
+header p {
+    color: brown;
+}
+
+.big-p {
+    color: crimson;
+}
+
+#middle-text {
+    text-align: center;
+}
