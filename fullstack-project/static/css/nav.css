@@ -1,0 +1,45 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+ 
+
+header{
+    background-image: linear-gradient(90deg,rgb(148, 179, 148) 0%,rgb(85, 85, 148) 100%);
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+ul li a{
+    padding:0 20px;
+    text-decoration: none;
+    color: rgb(43, 226, 67);
+    display: inline-block;
+}
+
+li a::after{
+    content: '';
+    display: block;
+    height: 4px;
+    width: 0;
+    background: rgb(140, 160, 25);
+    transition: all .5s
+}
+li a:hover::after{
+    width: 100%;
+}
+
+.signup-btn{
+    background: lawngreen;
+    padding:15px 30px;
+    /* outline: none;
+    border: none; */
+    border-radius: 50px;
+}

@@ -1,0 +1,14 @@
+body{
+    background-color: floralwhite;
+}
+
+h1 , h2
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{font-family: monospace;
+}
+h1:hover{
+    color: brown;
+}
